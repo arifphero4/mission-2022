@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding:0px 60px;
+}
+
+.span-text-color{
+    color: orange;
+}
+
+.flexible-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.half-width{
+    width:50%;  
+}
+
+
+.half-width h1{
+    font-size: 40px;
+    border-left: 5px solid tomato;
+    border-radius: 4px;
+    padding-left: 10px ;
+}
+
+.half-width h2{
+    font-size: 30px;
+}
+.half-width img {
+    padding-left: 16px;
+    width: 80%;
+}
+
+#app-section{
+    margin-top: 80px;
+}
+#app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-width{
+    width: 40%;
+}
+
+.app-width h2{
+    font-size: 30px;
+}
+.app-width img{
+    width: 70%;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: tomato;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.mission-heading{
+    text-align: center;
+    font-size: 40px;
+
+}
+.mission-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+#mission-style{
+    background-color: papayawhip;
+    padding: 8px;
+    margin-left: 12px;
+    border: 2px solid papayawhip;
+    border-radius: 24px;
+}
+
+#vision-style{
+    background-color: goldenrod;
+    padding: 8px;
+    margin-left: 12px;
+    border: 2px solid goldenrod;
+    border-radius: 24px;
+}
+
+#goals-style{
+    background-color: hotpink;
+    padding: 8px;
+    margin-left: 12px;
+    border: 2px solid hotpink;
+    border-radius: 24px;
+}
+
+
+.mission-container img{
+    width: 30%;
+}
+
+.container {
+    width: 870px;
+    position: relative;
+    margin: 50px auto;
+  }
+  .container-header {
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .social-row {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px #808080;
+  }
+
+  .social-col {
+    text-align: center;
+    width: 35%;
+    margin-top: 30px;
+  }
+
+
