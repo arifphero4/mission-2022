@@ -2,9 +2,18 @@ body{
     margin: 0;
     
 font-family: 'Poppins', sans-serif;
+ 
+}
+#title-text{
+    font-family: 'Yeseva One', cursive;
+}
 
+#footer-font{
+    font-family: 'Moon Dance', cursive;
+    font-size: 50px;
     
 }
+
 #main-section{
     padding:0px 60px;
 }
@@ -26,8 +35,7 @@ font-family: 'Poppins', sans-serif;
 
 .half-width h1{
     font-size: 40px;
-    border-left: 5px solid tomato;
-    border-radius: 4px;
+    border-left: 3px solid tomato;
     padding-left: 10px ;
 }
 
@@ -35,9 +43,11 @@ font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
 .half-width img {
-    padding-left: 16px;
+    padding-left: 24px;
     width: 80%;
 }
+
+
 
 #app-section{
     margin-top: 80px;
@@ -139,7 +149,7 @@ font-family: 'Poppins', sans-serif;
   }
 footer{
     background-color: black;
-   padding: 40px;
+   padding-bottom: 20px;
 }
   .footer-text{
       text-align: center;
